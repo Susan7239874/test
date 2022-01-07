@@ -1,0 +1,21 @@
+.buttonwrap{
+    background: transparent;
+    width:750rpx;
+    height:60rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    background: #3c89bd;
+    color: #ffffff;
+    flex:0 0 600rpx;
+    height:100%;
+    text-align: center;
+    line-height:60rpx;
+    letter-spacing: 2rpx;
+    font-size:25rpx;
+    font-weight: bolder;
+    border-radius: 10rpx;
+}

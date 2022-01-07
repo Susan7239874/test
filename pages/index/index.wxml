@@ -1,0 +1,3 @@
+<view>
+    <my-button button="确定"></my-button>
+</view>
