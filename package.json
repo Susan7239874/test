@@ -10,7 +10,8 @@
 "license": "ISC",
 "dependencies": {
 },
-"devDependencies": {},
+"devDependencies": {
+},
   "repository": {
     "type": "git",
     "url": "https://github.com/Susan7239874/wx-component.git"

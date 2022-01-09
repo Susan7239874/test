@@ -1,3 +1,0 @@
-<view class="buttonwrap">
-    <view class="button">{{button}}</view>
-</view>

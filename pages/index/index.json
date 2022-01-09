@@ -1,5 +1,8 @@
 {
   "usingComponents": {
-    "my-button": "../../components/button"
+    "my-button": "/components/button/button",
+    "my-switchBar":"/components/switchBar/switchBar",
+    "my-switchBarThree":"/components/switchBarThree/switchBarThree",
+    "my-search":"/components/search/search"
   }
 }

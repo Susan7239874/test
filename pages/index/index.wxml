@@ -1,3 +1,25 @@
 <view>
+  组件button:
     <my-button button="确定"></my-button>
+    组件switch:
+    <my-switchBar 
+    switch="{{switch}}" 
+    labelleft="新建" 
+    labelright="已提交" 
+    bindchangeEvent="changeSwitch">
+    </my-switchBar>
+    组件switchThree:
+    <my-switchBarThree 
+    switch="{{switch2}}" 
+    labelleft="与我相关" 
+    labelmiddle="我发布的"
+     labelright="新建" 
+     bindchangeEvent="changeSwitch2">
+     </my-switchBarThree>
+    组件搜索框：
+    <my-search
+    searchValue="{{searchValue}}"
+    bindchangeInput="changeInput"
+    bindcancelSearch="cancelSearch"
+    ></my-search>
 </view>

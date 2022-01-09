@@ -1,0 +1,10 @@
+<!--Core/switchBarThree/switchBarThree.wxml-->
+<view class="switchwrap">
+  <view class="switch " >
+    <text class="off off0 {{switch==0?'active':''}}" bindtap="changeSwitch" data-index="0">{{labelleft}}</text>
+    <text class="off off1 {{switch==1?'active':''}}" bindtap="changeSwitch" data-index="1">{{labelmiddle}}</text>
+    <text class="off off2 {{switch==2?'active':''}}" bindtap="changeSwitch" data-index="2">{{labelright}}</text>
+  </view>
+
+</view>
+

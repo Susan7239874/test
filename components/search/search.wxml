@@ -1,0 +1,7 @@
+	<view class="search-wrap ">
+		<view class="main">
+			<image class="icon-search" src="{{config}}icon-searach.png" mode="scaleToFill"></image>
+			<input type="text" bindinput="changeInput" value="{{searchValue}}" />
+			<image class="icon-close" src="{{config}}icon-close.png" mode="scaleToFill" catchtap="cancelSearch"></image>
+		</view>
+</view>

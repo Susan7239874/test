@@ -1,0 +1,7 @@
+<!--Core/switchBar/switchBar.wxml-->
+<view class="switchwrap flex flex-hc flex-vc">
+  <view class="switch" bindtap="changeSwitch">
+    <text class="on {{switch==1?'':'right'}}">{{switch==1?labelleft:labelright}}</text>
+    <text class="off {{switch==1?'right2':''}}">{{switch==0?labelleft:labelright}}</text>
+  </view>
+</view>
