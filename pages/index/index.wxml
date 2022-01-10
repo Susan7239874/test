@@ -22,4 +22,9 @@
     bindchangeInput="changeInput"
     bindcancelSearch="cancelSearch"
     ></my-search>
+    图标：
+    <my-icons list="{{iconlist}}"></my-icons>
+    图标2:
+    <!-- 一行变多行只改了.icons .icon的width -->
+    <my-icons2 list="{{iconlist2}}"></my-icons2>
 </view>

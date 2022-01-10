@@ -1,0 +1,9 @@
+<!--components/icons/icons.wxml-->
+<view class="icons">
+			<view class="icon" wx:for="{{list}}" wx:key="key2">
+				<navigator url="{{item.url}}">
+					<image class="logo" src="{{item.imgUrl}}" mode="scaleToFill"></image>
+					<text>{{item.name}}</text>
+				</navigator>
+</view>
+</view>

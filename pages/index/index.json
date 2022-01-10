@@ -3,6 +3,8 @@
     "my-button": "/components/button/button",
     "my-switchBar":"/components/switchBar/switchBar",
     "my-switchBarThree":"/components/switchBarThree/switchBarThree",
-    "my-search":"/components/search/search"
+    "my-search":"/components/search/search",
+    "my-icons":"/components/icons/icons",
+    "my-icons2":"/components/icons2/icons2"
   }
 }
