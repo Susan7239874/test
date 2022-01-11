@@ -54,7 +54,9 @@ Page({
         name: "报修",
         url: "/pages/fix/fix",
         imgUrl: config+"icon-fix.png"
-      }]
+      }],
+      // 組件my-line-fidld
+      fieldValue:null
     //其他
   },
   // 子组件my-switchBar触发父组件
@@ -66,13 +68,13 @@ Page({
     })
     // 下面可进行数据请求……
   },
-  // 子组件my-switchBarThree触发父组件
+  // my-switchBarThree触发父组件
   changeSwitch2:function(e){
     this.setData({
       switch2:e.detail.index
     }) // 下面可进行数据请求……
   },
-  //子组件my-search触发父组件
+  //my-search触发父组件
   cancelSearch(e){//清空输入框
     this.setData({
       searchValue: null 
@@ -81,6 +83,13 @@ Page({
   changeInput(e){//输入变化后
     this.setData({
       searchValue: e.detail.value
+    })
+  },
+  // my-line-fidld输入触发父组件
+  valueInput(e){
+    console.log(111)
+    this.setData({
+      fieldValue: e.detail.value
     })
   }
 })

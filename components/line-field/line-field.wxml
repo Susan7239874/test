@@ -1,0 +1,11 @@
+<!--components/line-field/line-field.wxml-->
+<view class="inputwrap">
+        <view class="label">
+          <text class="red">*</text>
+          <text class="tex">发文标题</text>
+        </view>
+        <input type="text"
+        placeholder="请输入"
+        bindinput="bindKeyInput"
+        placeholder-class="placeholderclass"/>
+</view>

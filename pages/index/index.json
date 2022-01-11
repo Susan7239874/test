@@ -5,6 +5,7 @@
     "my-switchBarThree":"/components/switchBarThree/switchBarThree",
     "my-search":"/components/search/search",
     "my-icons":"/components/icons/icons",
-    "my-icons2":"/components/icons2/icons2"
+    "my-icons2":"/components/icons2/icons2",
+    "my-line-field":"/components/line-field/line-field"
   }
 }
