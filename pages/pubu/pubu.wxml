@@ -1,4 +1,4 @@
 <view class='container'>
-    <image  src='{{item.url}}' wx:if="{{index % 2 != 0 }}" wx:for="{{list}}" mode='widthFix' wx:key="{{index}}"></image>
-     <image src='{{item.url}}' wx:if="{{index % 2 == 0 }}" wx:for="{{list}}" mode='widthFix' wx:key="{{index}}"></image> 
+    <image  src='{{item.url}}' wx:if="{{index % 2 != 0 }}" wx:for="{{list}}" mode='widthFix' wx:key="index"></image>
+     <image src='{{item.url}}' wx:if="{{index % 2 == 0 }}" wx:for="{{list}}" mode='widthFix' wx:key="index"></image> 
 </view> 
