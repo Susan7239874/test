@@ -1,19 +1,22 @@
-{"name": "wx-scomponent",
-"version": "1.0.421",
+{
+  "name": "wx-scomponent",
+  "version": "1.0.43",
   "description": "小程序自定义组件开发模板",
   "miniprogram": "components",
-"scripts": {
-"test": "echo \"Error: no test specified\" && exit 1"
-},
-"keywords": [],
-"author": "susan",
-"license": "ISC",
-"dependencies": {
-},
-"devDependencies": {
-},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "susan",
+  "license": "ISC",
+  "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/Susan7239874/wx-component.git"
-  }
+    "url": "git+https://github.com/Susan7239874/wx-component.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Susan7239874/wx-component/issues"
+  },
+  "homepage": "https://github.com/Susan7239874/wx-component#readme",
+  "main": "app.js"
 }

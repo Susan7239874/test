@@ -32,4 +32,6 @@
     bindvalueInput="valueInput"
     >
     </my-line-field>
+   <my-hoverLarge></my-hoverLarge>
+   
 </view>
