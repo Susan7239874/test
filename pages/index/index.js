@@ -56,7 +56,9 @@ Page({
         imgUrl: config+"icon-fix.png"
       }],
       // 組件my-line-fidld
-      fieldValue:null
+      fieldValue:null,
+      // 组件my-textarea
+      text:null
     //其他
   },
   // 子组件my-switchBar触发父组件
@@ -87,9 +89,14 @@ Page({
   },
   // my-line-fidld输入触发父组件
   valueInput(e){
-    console.log(111)
     this.setData({
       fieldValue: e.detail.value
+    })
+  },
+  // my-textarea输入触发父组件
+  inputFn(e){
+    this.setData({
+      text: e.detail.value
     })
   }
 })

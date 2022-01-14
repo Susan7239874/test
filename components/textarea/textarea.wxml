@@ -1,0 +1,11 @@
+<!--components/textarea/textarea.wxml-->
+<view class="remarks-box">
+<textarea 
+value="{{text}}"
+class="remarks" 
+placeholder="填写补办说明" 
+auto-focus
+bindinput="inputFn"
+bindconfirm="confirmFn"
+ />
+</view>

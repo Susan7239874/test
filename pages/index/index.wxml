@@ -33,5 +33,9 @@
     >
     </my-line-field>
    <my-hoverLarge></my-hoverLarge>
-   
+   <navigator url="/pages/pubu/pubu">瀑布流布局：</navigator>
+   多行输入文本框:
+   <my-textarea text="{{text}}" bindinputFn="inputFn"></my-textarea>
+   grid布局板块：
+   <my-gridCard></my-gridCard>
 </view>

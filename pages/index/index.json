@@ -6,6 +6,8 @@
     "my-search":"/components/search/search",
     "my-icons":"/components/icons/icons",
     "my-icons2":"/components/icons2/icons2",
-    "my-line-field":"/components/line-field/line-field"
+    "my-line-field":"/components/line-field/line-field",
+    "my-textarea":"/components/textarea/textarea",
+    "my-gridCard":"/components/gridCard/gridCard"
   }
 }

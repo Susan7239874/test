@@ -1,0 +1,27 @@
+<!--components/gridCard/gridCard.wxml-->
+<view class="SourceContainer">
+      <view class="all">
+         <image class="modimg" src="{{imgUrl}}img-resource0.png" mode="scaleToFill"></image>
+        <text class="smtex">全部资源</text>
+      </view>
+      <view class="ppt">
+         <image class="modimg" src="{{imgUrl}}img-resource1.png" mode="scaleToFill"></image>
+        <text class="smtex">课件</text>
+      </view>
+      <view class="papger">
+         <image class="modimg" src="{{imgUrl}}img-resource2.png" mode="scaleToFill"></image>
+        <text class="smtex">试卷</text>
+      </view>
+        <view class="homework">
+           <image class="modimg" src="{{imgUrl}}img-resource3.png" mode="scaleToFill"></image>
+        <text class="smtex">作业</text>
+        </view>
+          <view class="refer">
+             <image class="modimg" src="{{imgUrl}}img-resource4.png" mode="scaleToFill"></image>
+        <text class="smtex">素材</text>
+          </view>
+          <view class="orther">
+             <image class="modimg" src="{{imgUrl}}img-resource5.png" mode="scaleToFill"></image>
+        <text class="smtex">其他</text>
+          </view>
+  </view>

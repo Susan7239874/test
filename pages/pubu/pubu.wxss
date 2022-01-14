@@ -1,9 +1,9 @@
 .container{
   column-count: 2;  /*设置列数*/ 
-  column-gap:2rpx;
-  padding-left: 8rpx;
+  column-gap:10rpx;
+  padding:0 10rpx;/*10=750-360*2-10*/
 }
 image{
-  width: 182px;
-  box-shadow: 2px 2px 4px rgba(0,0,0,.4);
+  width:360rpx;
+  box-shadow: 4rpx 4rpx 8rpx rgba(0,0,0,.4);
 }

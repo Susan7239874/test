@@ -1,3 +1,11 @@
+<!-- 
+    这是2列的瀑布流
+如果要改成3列，wxml 改2=》3
+             wxss column-count改2=>3 ，
+                  image width改小
+                  padding的左右值改为 =750-imgwidth*3-column-gap*(3-1)
+             js   onLoad的for循环的imgurl=index%3==0?this.data.url:imgurl=index%3==1?this.data.url2:this.data.url3;
+-->
 <view class='container'>
     <image  src='{{item.url}}' wx:if="{{index % 2 != 0 }}" wx:for="{{list}}" mode='widthFix' wx:key="index"></image>
      <image src='{{item.url}}' wx:if="{{index % 2 == 0 }}" wx:for="{{list}}" mode='widthFix' wx:key="index"></image> 
