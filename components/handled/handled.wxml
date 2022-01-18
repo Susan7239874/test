@@ -1,0 +1,23 @@
+<!--components/handled/handled.wxml-->
+<view class="modwrap">
+  <view class="title">{{content.person}}的{{typelist[content.type]}}申请
+  </view>
+  <view class="mark">
+    <view class="label">申请人</view>
+    <view class="content">{{content.person}}</view>
+  </view>
+  <view class="mark">
+    <view class="label">申请时间</view>
+    <view class="content">{{content.date}}</view>
+  </view>
+  <view class="mark">
+    <view class="label">请假理由</view>
+    <view class="content">{{content.reason}}</view>
+  </view>
+  <view class="statuswrap">
+    <image class="passicon" wx:if="{{content.status==0}}" src="{{config}}icon-aggree.png" mode="scaleToFill"></image>
+    <image class="passicon" wx:else src="{{config}}icon-disaggree.png" mode="scaleToFill"></image>
+    <view class="dec {{content.status==0?'redcolor':''}}">{{content.dealdate}}</view>
+  </view>
+</view>
+

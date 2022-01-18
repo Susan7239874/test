@@ -1,41 +1,36 @@
 <view>
   组件button:
-    <my-button button="确定"></my-button>
-    组件switch:
-    <my-switchBar 
-    switch="{{switch}}" 
-    labelleft="新建" 
-    labelright="已提交" 
-    bindchangeEvent="changeSwitch">
-    </my-switchBar>
-    组件switchThree:
-    <my-switchBarThree 
-    switch="{{switch2}}" 
-    labelleft="与我相关" 
-    labelmiddle="我发布的"
-     labelright="新建" 
-     bindchangeEvent="changeSwitch2">
-     </my-switchBarThree>
-    组件搜索框：
-    <my-search
-    searchValue="{{searchValue}}"
-    bindchangeInput="changeInput"
-    bindcancelSearch="cancelSearch"
-    ></my-search>
-    图标：
-    <my-icons list="{{iconlist}}"></my-icons>
-    图标2:
-    <!-- 一行变多行只改了.icons .icon的width -->
-    <my-icons2 list="{{iconlist2}}"></my-icons2>
-    输入框：
-    <my-line-field 
-    bindvalueInput="valueInput"
-    >
-    </my-line-field>
-   <my-hoverLarge></my-hoverLarge>
-   <navigator url="/pages/pubu/pubu">瀑布流布局：</navigator>
-   多行输入文本框:
-   <my-textarea text="{{text}}" bindinputFn="inputFn"></my-textarea>
-   grid布局板块：
-   <my-gridCard></my-gridCard>
+  <my-button button="确定"></my-button>
+  组件switch:
+  <my-switchBar switch="{{switch}}" labelleft="新建" labelright="已提交" bindchangeEvent="changeSwitch">
+  </my-switchBar>
+  组件switchThree:
+  <my-switchBarThree switch="{{switch2}}" labelleft="与我相关" labelmiddle="我发布的" labelright="新建" bindchangeEvent="changeSwitch2">
+  </my-switchBarThree>
+  组件搜索框：
+  <my-search searchValue="{{searchValue}}" bindchangeInput="changeInput" bindcancelSearch="cancelSearch"></my-search>
+  图标：
+  <my-icons list="{{iconlist}}"></my-icons>
+  图标2:
+  <!-- 一行变多行只改了.icons .icon的width -->
+  <my-icons2 list="{{iconlist2}}"></my-icons2>
+  输入框：
+  <my-line-field bindvalueInput="valueInput">
+  </my-line-field>
+  <my-hoverLarge></my-hoverLarge>
+  <navigator url="/pages/pubu/pubu">瀑布流布局=》跳转新页面查看</navigator>
+  多行输入文本框:
+  <my-textarea text="{{text}}" bindinputFn="inputFn"></my-textarea>
+  grid布局板块：
+  <my-gridCard></my-gridCard>
+  卡片：
+  <my-handled wx:for="{{handledList}}" wx:for-item="handledItem" wx:for-index="handledIndex" wx:key="hkey" content="{{handledItem}}"></my-handled>
+  定时器：
+  <view>显示剩余时间：{{wxTimer}}</view>
+  <view>显示剩余秒数：{{wxTimerSecond}}</view>
+  <!-- 多个定时器把下面放开，上面注释：
+  <view>显示计时器1的剩余时间：{{wxTimerList['wxTimer1'].wxTimer}}</view>
+  <view>显示计时器2的剩余时间：{{wxTimerList['wxTimer2'].wxTimer}}</view>
+  <view>显示计时器1的剩余秒数：{{wxTimerList['wxTimer1'].wxTimerSecond}}</view>
+  <view>显示计时器2的剩余秒数：{{wxTimerList['wxTimer2'].wxTimerSecond}}</view> -->
 </view>
