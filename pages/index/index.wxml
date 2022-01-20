@@ -33,4 +33,5 @@
   <view>显示计时器2的剩余时间：{{wxTimerList['wxTimer2'].wxTimer}}</view>
   <view>显示计时器1的剩余秒数：{{wxTimerList['wxTimer1'].wxTimerSecond}}</view>
   <view>显示计时器2的剩余秒数：{{wxTimerList['wxTimer2'].wxTimerSecond}}</view> -->
+  <navigator url="/pages/cirProgress/cirProgress">圆环进度条：=》跳转新页面查看</navigator>
 </view>

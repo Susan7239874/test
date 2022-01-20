@@ -128,7 +128,7 @@ Page({
   timerSetting() {
     // 单个定时器：
     var wxTimer1 = new timer({
-      beginTime: "00:00:10",
+      beginTime: "00:01:10",
       name: 'wxTimer1',
       complete: function () {
         console.log("完成了")

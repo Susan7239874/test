@@ -1,0 +1,55 @@
+/* 圆环进度条 -s */
+$width:200rpx;// 修改$width可调整圆环大小，修改$swidth小数可调整粗细，$border请勿改
+$swidth:$width*0.75;
+$border:$width*0.5;
+.shanxing {
+  width:$width;
+  height:$width;
+  margin:auto;
+  position: relative;
+  border-radius:$border;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sx1, .sx2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:$width;
+  height:$width;
+  clip: rect(0rpx,$border, $width, 0rpx);
+}
+.sx1 {
+  z-index: 1;
+}
+.sx2 {
+  z-index: 2;
+}
+.sx_t {
+  width:$swidth;
+  height:$swidth;
+  border-radius:50%;
+  z-index: 3;
+  background: #fff;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height:$swidth;
+  text-align: center;
+  color: #111111;
+}
+.shanxing1 {
+  background: #F5D242;
+}
+.shanxing1 .sx1, .shanxing1 .sx2 {
+  background: #F3F3F3;
+}
+.shanxing2 {
+  background: #F3F3F3;
+}
+.shanxing2 .sx1, .shanxing2 .sx2 {
+  background: #F5D242;
+  transform: rotate(180deg);
+}
+/* 圆环进度条 -e */

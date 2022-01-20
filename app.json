@@ -1,9 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/pubu/pubu"
-  
-   
+    "pages/pubu/pubu",
+    "pages/cirProgress/cirProgress"
   ],
   "window": {
     "backgroundTextStyle": "light",

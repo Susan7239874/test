@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "my-circularProgress": "/components/circularProgress/circularProgress",
+    "my-circularProgress2": "/components/circularProgress2/circularProgress2",
+    "my-circularProgress3": "/components/circularProgress3/circularProgress3"
+  }
+}

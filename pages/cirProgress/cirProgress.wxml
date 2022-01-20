@@ -1,0 +1,5 @@
+<!--pages/cirProgress/cirProgress.wxml-->
+<my-circularProgress percent="{{percent}}"></my-circularProgress>
+<my-circularProgress2 percent="{{percent}}"></my-circularProgress2>
+<my-circularProgress3 percent="{{percent}}"></my-circularProgress3>
+ps：组件的scss文件可通过变量调整大小

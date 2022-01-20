@@ -1,0 +1,8 @@
+<!--components/circularProgress/circularProgress.wxml-->
+<view class="shanxing {{((percent < 50 && percent != 0) || percent == 100) ? 'shanxing1' : 'shanxing2'}}">
+    <view wx:if="{{percent != 0 && percent != 100}}" class="sx1"></view>
+    <view wx:if="{{percent != 50 && percent != 0 && percent != 100}}" class="sx2" style="transform: rotate({{percent < 50 ? ((360 * percent / 100) - 180):(360 * (percent - 100) / 100)}}deg);"></view>
+    <view class="sx_t">{{percent!==100?'待维修':'已维修'}}</view>
+</view>
+<!-- 组件的scss文件在webstorm中可编辑$width等变量对圆环大小进行调整 -->
+

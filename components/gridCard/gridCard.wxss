@@ -14,7 +14,8 @@
   grid-template-areas: "all ppt ppt " "all homework refer" "paper homework orther"; }
 
 .SourceContainer view {
-  position: relative; }
+  position: relative;
+  font-size: 24rpx; }
 
 /* 挨个声明区域名和对应的块 */
 .all {

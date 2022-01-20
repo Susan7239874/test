@@ -1,0 +1,85 @@
+/* 圆环进度条 -s */
+$width:410rpx;// 修改$width可调整圆环大小，修改$swidth小数可调整粗细
+$swidth:$width*0.8;
+.shagnxing-wrap{
+  width:$width;
+  height:$width;
+  border-radius:50%;
+  margin:auto;
+  position:relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shanxing {
+  width:$width*0.99;
+  height:$width*0.99;
+  border-radius:50%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.poimg{
+  position:absolute;
+  border-radius: 50%;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  z-index:4;
+
+  width:$width;
+  height:$width;
+}
+.sx1, .sx2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.sx1 {
+  z-index: 1;
+  width:$width;
+  height:$width;
+  clip: rect(0rpx,$width/2, $width, 0rpx);
+}
+.sx2 {
+  z-index: 2;
+width:$width;
+height:$width;
+clip: rect(0rpx,$width/2, $width, 0rpx);
+}
+.sx_t{
+  border-radius:50%;
+  z-index: 3;
+  background: #fff;
+  font-size: 24rpx;
+  font-weight: 400;
+  text-align: center;
+  color: #111111;
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  width:$swidth;
+  height:$swidth;
+  line-height:$swidth;
+}
+.shanxing1 {
+  background: #F5D242;
+}
+.shanxing1 .sx1, .shanxing1 .sx2 {
+  background: #F3F3F3;
+}
+.shanxing2 {
+  background: #F3F3F3;
+}
+.shanxing2 .sx1, .shanxing2 .sx2 {
+  background: #F5D242;
+  transform: rotate(180deg);
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top:0;
+}
+/* 圆环进度条 -e */

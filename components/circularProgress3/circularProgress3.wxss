@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* 圆环进度条 -s */
+.shanxing {
+  width: 160rpx;
+  height: 160rpx;
+  margin: 10rpx auto;
+  position: relative;
+  border-radius: 80rpx;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.sx1, .sx2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 160rpx;
+  height: 160rpx;
+  clip: rect(0rpx, 80rpx, 160rpx, 0rpx); }
+
+.sx1 {
+  z-index: 1; }
+
+.sx2 {
+  z-index: 2; }
+
+.sx_t {
+  width: 136rpx;
+  height: 136rpx;
+  border-radius: 80rpx;
+  z-index: 3;
+  background: #fff; }
+
+.shanxing1 {
+  background: #4886ff; }
+
+.shanxing1 .sx1, .shanxing1 .sx2 {
+  background: #ccc; }
+
+.shanxing2 {
+  background: #ccc; }
+
+.shanxing2 .sx1, .shanxing2 .sx2 {
+  background: #4886ff;
+  transform: rotate(180deg); }
+
+/* 圆环进度条 -e */
+
+/*# sourceMappingURL=circularProgress3.wxss.map */
