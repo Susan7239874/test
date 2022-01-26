@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "my-star":"/components/star/star",
+    "my-star2":"/components/star2/star2"
+  }
+}

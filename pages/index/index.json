@@ -9,6 +9,7 @@
     "my-line-field":"/components/line-field/line-field",
     "my-textarea":"/components/textarea/textarea",
     "my-gridCard":"/components/gridCard/gridCard",
-    "my-handled":"/components/handled/handled"
+    "my-handled":"/components/handled/handled",
+    "my-uploadFile":"/components/uploadFile/uploadFile"
   }
 }

@@ -2,18 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f155e53-6328-4738-af07-427664635a87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/circularProgress/circularProgress.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/circularProgress2/circularProgress2.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/circularProgress3/circularProgress3.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/circularProgress2/jian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/star/star.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/star/star.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/star/star.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/star/star.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/star2/star2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/star2/star2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/star2/star2.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/star2/star2.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/star/icon-star0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/star/icon-star1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/star/s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/star/s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/star/s3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/star/s4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/app.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/gridCard/gridCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/gridCard/gridCard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/gridCard/gridCard.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/gridCard/gridCard.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/gridCard/gridCard.wxss.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/gridCard/gridCard.wxss.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,26 +35,52 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/gridCard/gridCard.scss">
+        <entry file="file://$PROJECT_DIR$/pages/index/index.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+            <state relative-caret-position="520">
+              <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/gridCard/gridCard.wxss">
+        <entry file="file://$PROJECT_DIR$/pages/index/index.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/uploadFile/uploadFile.wxml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="182">
-              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/gridCard/gridCard.wxml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/components/uploadFile/uploadFile.wxss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/uploadFile/uploadFile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+              <folding>
+                <element signature="e#300#539#0" />
+                <element signature="e#563#980#0" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -56,6 +90,7 @@
       <find>div</find>
       <find>46rpx</find>
       <find>{{widthSm}}rpx</find>
+      <find>tempFilePaths</find>
     </findStrings>
     <replaceStrings>
       <replace>$border</replace>
@@ -72,13 +107,9 @@
         <option value="D:/download/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass.rb" />
         <option value="D:/download/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass.rb" />
         <option value="$PROJECT_DIR$/pages/index/index.wxss" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/components/circularProgres/circularProgres.wxml" />
         <option value="$PROJECT_DIR$/components/circularProgres/circularProgres.scss" />
         <option value="$PROJECT_DIR$/components/circularProgres/circularProgres.js" />
-        <option value="$PROJECT_DIR$/pages/index/index.wxml" />
-        <option value="$PROJECT_DIR$/app.json" />
-        <option value="$PROJECT_DIR$/pages/index/index.json" />
         <option value="$PROJECT_DIR$/pages/cirProgress/cirProgress.wxml" />
         <option value="$PROJECT_DIR$/pages/cirProgress/cirProgress.json" />
         <option value="$PROJECT_DIR$/components/circularProgress/circularProgress.wxss" />
@@ -91,14 +122,27 @@
         <option value="$PROJECT_DIR$/components/circularProgress2/circularProgress2.js" />
         <option value="$PROJECT_DIR$/components/gridCard/gridCard.wxss" />
         <option value="$PROJECT_DIR$/components/gridCard/gridCard.scss" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/pages/star/star.json" />
+        <option value="$PROJECT_DIR$/pages/star/star.js" />
+        <option value="$PROJECT_DIR$/pages/star/star.wxml" />
+        <option value="$PROJECT_DIR$/components/star/star.wxml" />
+        <option value="$PROJECT_DIR$/components/star/star.js" />
+        <option value="$PROJECT_DIR$/components/star2/star2.js" />
+        <option value="$PROJECT_DIR$/pages/index/index.json" />
+        <option value="$PROJECT_DIR$/components/uploadFile/uploadFile.wxss" />
+        <option value="$PROJECT_DIR$/components/uploadFile/uploadFile.wxml" />
+        <option value="$PROJECT_DIR$/components/uploadFile/uploadFile.js" />
+        <option value="$PROJECT_DIR$/pages/index/index.wxml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="788" />
-    <option name="y" value="81" />
-    <option name="width" value="1120" />
-    <option name="height" value="903" />
+    <option name="x" value="711" />
+    <option name="y" value="99" />
+    <option name="width" value="1272" />
+    <option name="height" value="913" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -122,7 +166,7 @@
               <item name="wx-component" type="b2602c69:ProjectViewProjectNode" />
               <item name="wx-component" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="gridCard" type="462c0819:PsiDirectoryNode" />
+              <item name="uploadFile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wx-component" type="b2602c69:ProjectViewProjectNode" />
@@ -132,8 +176,13 @@
             <path>
               <item name="wx-component" type="b2602c69:ProjectViewProjectNode" />
               <item name="wx-component" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="circularProgress2" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx-component" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx-component" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -143,13 +192,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/GIT3/home-school-connection" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\csproject\wx-component\images" />
+      <recent name="D:\csproject\wx-component\components" />
       <recent name="D:\csproject\wx-component\images\circularProgress2" />
     </key>
   </component>
@@ -186,23 +238,26 @@
       <workItem from="1642484698403" duration="33000" />
       <workItem from="1642490878062" duration="1213000" />
       <workItem from="1642603227336" duration="35000" />
-      <workItem from="1642664557786" duration="5910000" />
+      <workItem from="1642664557786" duration="6121000" />
+      <workItem from="1642841216226" duration="1086000" />
+      <workItem from="1642845996905" duration="16000" />
+      <workItem from="1643195621282" duration="5248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11568000" />
+    <option name="totallyTimeSpent" value="18129000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="501" y="74" width="1120" height="903" extended-state="0" />
+    <frame x="711" y="99" width="1272" height="913" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15619224" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17909238" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3282636" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32769832" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3008963" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -211,7 +266,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.23320659" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.10923277" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -242,51 +297,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/circularProgress/circularProgress.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/circularProgress/circularProgres.wxss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/circularProgress/circularProgres.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index/index.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/components/circularProgress/circularProgres.wxss" />
+    <entry file="file://$PROJECT_DIR$/components/circularProgress/circularProgres.scss" />
     <entry file="file://$PROJECT_DIR$/pages/cirProgress/cirProgress.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index/index.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -394,8 +413,112 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/gridCard/gridCard.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        <state relative-caret-position="208">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/star/star.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/star/star.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/star2/star2.wxml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/star/star.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/star/star.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/star/star.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/star2/star2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.wxss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uploadFile/uploadFile.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uploadFile/uploadFile.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uploadFile/uploadFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="e#300#539#0" />
+            <element signature="e#563#980#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
         </state>
       </provider>
     </entry>

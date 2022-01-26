@@ -1,0 +1,9 @@
+<!--index/star/star.wxml-->
+<view class="A">
+  <view  wx:for='{{score}}' wx:for-item="item" wx:key="kkey" style='{{"item==1"?"color:blue;":"color:red"}}' wx:key="key"
+  data-index='{{index}}' bindtap="changelog">
+    <image wx:if="{{item==0}}" src="/images/star/icon-star0.png" class="small_pic1" ></image>
+    <image wx:if="{{item==1}}" src="/images/star/icon-star1.png" class="small_pic1" ></image>
+  </view>
+</view>
+

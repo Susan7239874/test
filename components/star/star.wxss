@@ -1,0 +1,10 @@
+/* index/star/star.wxss */
+.A{
+  display: flex;
+  flex-direction: row;
+}
+
+.small_pic1{
+  height: 69rpx;
+  width: 69rpx;
+}

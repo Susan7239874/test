@@ -1,0 +1,9 @@
+<!--index/star2/star2.wxml-->
+<view class="A">
+  <view  wx:for='{{score}}' wx:for-item="item" wx:key="hkey" data-index='{{index}}' bindtap="log">
+    <image wx:if="{{item==1}}" src="{{url+item+'.png'}}" class="small_pic" ></image>
+    <image wx:if="{{item==2}}" src="{{url+item+'.png'}}" class="small_pic" ></image>
+    <image wx:if="{{item==3}}" src="{{url+item+'.png'}}" class="small_pic" ></image>
+    <image wx:if="{{item==4}}" src="{{url+item+'.png'}}" class="small_pic" ></image>
+  </view>
+</view>

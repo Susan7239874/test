@@ -1,5 +1,6 @@
 view{
   font-size:35rpx;
   line-height:85rpx;
+  font-weight: bold;
 }
 

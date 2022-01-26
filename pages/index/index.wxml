@@ -34,4 +34,7 @@
   <view>显示计时器1的剩余秒数：{{wxTimerList['wxTimer1'].wxTimerSecond}}</view>
   <view>显示计时器2的剩余秒数：{{wxTimerList['wxTimer2'].wxTimerSecond}}</view> -->
   <navigator url="/pages/cirProgress/cirProgress">圆环进度条：=》跳转新页面查看</navigator>
+  <navigator url="/pages/star/star">星星组件：=》跳转新页面查看</navigator>
+  上传文件[含获取异步结果的3种写法]：
+  <my-uploadFile></my-uploadFile>
 </view>

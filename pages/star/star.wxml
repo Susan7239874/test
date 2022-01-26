@@ -1,0 +1,10 @@
+<!--pages/star/star.wxml-->
+<view style="margin-top:50rpx;">封装成组件的star</view>
+<my-star bindmyevent="changeStar" score="{{score}}" ></my-star>
+<view>当前分数：{{grade}}</view>
+
+
+<view>包含半五角星</view>
+<my-star2 bindstarlog="log" score="{{score2}}"></my-star2>
+<view>当前分数：{{grade2}}</view>
+

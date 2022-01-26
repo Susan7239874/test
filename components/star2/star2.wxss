@@ -1,0 +1,9 @@
+/* index/star2/star2.wxss */
+.A{
+  display: flex;
+  flex-direction: row;
+}
+.small_pic{
+  height:69rpx;
+  width:35rpx;
+}

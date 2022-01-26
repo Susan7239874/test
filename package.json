@@ -1,6 +1,6 @@
 {
   "name": "wx-scomponent",
-  "version": "1.0.44",
+  "version": "1.0.45",
   "description": "小程序自定义组件开发模板",
   "miniprogram": "components",
   "scripts": {
@@ -9,7 +9,6 @@
   "keywords": [],
   "author": "susan",
   "license": "ISC",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Susan7239874/wx-component.git"
@@ -18,5 +17,8 @@
     "url": "https://github.com/Susan7239874/wx-component/issues"
   },
   "homepage": "https://github.com/Susan7239874/wx-component#readme",
-  "main": "app.js"
+  "main": "app.js",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
 }
