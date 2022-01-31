@@ -1,0 +1,8 @@
+.circle {
+  width: 10rpx;
+  height: 10rpx;
+  transform: rotate(45deg);
+  border-width: 1rpx 1rpx 0 0;
+  border-color: #000000; }
+
+/*# sourceMappingURL=picker.wxss.map */

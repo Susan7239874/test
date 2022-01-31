@@ -1,0 +1,41 @@
+<!--components/picker/picker.wxml-->
+<view class="container">
+    <view class="line">
+        <text class="left">开始时间</text>
+        <view class="content">
+            <picker
+                    mode="multiSelector"
+                    bindchange="bindMultiPickerChange"
+                    bindcolumnchange="bindMultiPickerColumnChange"
+                    value="{{multiIndex}}"
+                    range="{{multiArray}}"
+            >
+            {{multiArray[0][multiIndex[0]]}}-{{multiArray[1][multiIndex[1]]}}-{{multiArray[2][multiIndex[2]]}} {{multiArray[3][multiIndex[3]]}}:{{multiArray[4][multiIndex[4]]}}
+            </picker>
+            <!--需要动态js计算：-->
+            <!--1、月份改变-日要更新为正确的天数，日的index更新到每月1日-->
+            <!--2、请假时长：结束时间小于开始时间会有提示错误！-->
+        </view>
+        <text class="right"></text>
+    </view>
+    <view class="line">
+        <text class="left">结束时间</text>
+        <view class="content">
+            <picker
+                    mode="multiSelector"
+                    bindchange="bindMultiPickerChange2"
+                    bindcolumnchange="bindMultiPickerColumnChange2"
+                    value="{{multiIndex2}}"
+                    range="{{multiArray2}}"
+            >
+                {{multiArray2[0][multiIndex2[0]]}}-{{multiArray2[1][multiIndex2[1]]}}-{{multiArray2[2][multiIndex2[2]]}} {{multiArray2[3][multiIndex2[3]]}}:{{multiArray2[4][multiIndex2[4]]}}
+            </picker>
+        </view>
+        <text class="right"></text>
+    </view>
+    <view class="line">
+        <text class="left">请假时长</text>
+        <text class="content">{{hours}}</text>
+        <text class="right"></text>
+    </view>
+</view>

@@ -1,6 +1,6 @@
 {
   "name": "wx-scomponent",
-  "version": "1.0.45",
+  "version": "1.0.46",
   "description": "小程序自定义组件开发模板",
   "miniprogram": "components",
   "scripts": {

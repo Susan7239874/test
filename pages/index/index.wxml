@@ -26,15 +26,18 @@
   卡片：
   <my-handled wx:for="{{handledList}}" wx:for-item="handledItem" wx:for-index="handledIndex" wx:key="hkey" content="{{handledItem}}"></my-handled>
   定时器：
-  <view>显示剩余时间：{{wxTimer}}</view>
-  <view>显示剩余秒数：{{wxTimerSecond}}</view>
+  <view class="grey">显示剩余时间：{{wxTimer}}</view>
+  <view class="grey">显示剩余秒数：{{wxTimerSecond}}</view>
   <!-- 多个定时器把下面放开，上面注释：
   <view>显示计时器1的剩余时间：{{wxTimerList['wxTimer1'].wxTimer}}</view>
   <view>显示计时器2的剩余时间：{{wxTimerList['wxTimer2'].wxTimer}}</view>
   <view>显示计时器1的剩余秒数：{{wxTimerList['wxTimer1'].wxTimerSecond}}</view>
   <view>显示计时器2的剩余秒数：{{wxTimerList['wxTimer2'].wxTimerSecond}}</view> -->
+  上传文件[含获取异步结果的3种写法：
+  <my-uploadFile></my-uploadFile>
   <navigator url="/pages/cirProgress/cirProgress">圆环进度条：=》跳转新页面查看</navigator>
   <navigator url="/pages/star/star">星星组件：=》跳转新页面查看</navigator>
-  上传文件[含获取异步结果的3种写法]：
-  <my-uploadFile></my-uploadFile>
+
+  <navigator url="/pages/picker/picker">选择时间picker组件=>跳转新页面查看</navigator>
+  (开始-结束时间+时长自动计算)
 </view>

@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/pubu/pubu",
     "pages/cirProgress/cirProgress",
-    "pages/star/star"
+    "pages/star/star",
+    "pages/picker/picker"
   ],
   "window": {
     "backgroundTextStyle": "light",

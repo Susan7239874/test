@@ -1,0 +1,26 @@
+.circle{
+  width:20rpx;
+  height:20rpx;
+  display: inline-block;
+  transform: rotate(45deg);
+  border:solid #4e5062;
+  border-width:1rpx 1rpx 0 0;
+}
+.line .right{
+  margin-left:30rpx;
+  @extend .circle;
+}
+.line{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  border:solid #cfcfcf;
+  border-width:0 0 1rpx 0;
+  line-height:80rpx;
+  padding:0 25rpx;
+  box-sizing:border-box;
+}
+.line .content{
+  flex:1;
+  text-align: right;
+}

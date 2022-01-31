@@ -3,4 +3,7 @@ view{
   line-height:85rpx;
   font-weight: bold;
 }
-
+.grey{
+  color:#333333;
+  font-size:28rpx;
+}

@@ -1,0 +1,4 @@
+<!--pages/picker/picker.wxml-->
+<view>
+<my-picker></my-picker>
+</view>

@@ -1,7 +1,7 @@
 <!--components/uploadFile/uploadFile.wxml-->
 <view class="appendixline">
     <view class="title">选择附件</view>
-    <view class="icon flex flex-vc" catchtap="fileup">
+    <view class="icon flex flex-vc" catchtap="chooseFile">
         <image class="iconimg" src="{{imgUrl}}" mode="scaleToFill"></image>
         <text class="filename" wx:if="{{filename}}">{{filename}}</text>
     </view>
